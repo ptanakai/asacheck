@@ -1,0 +1,9 @@
+INDEX VERSION 1.3+C:\Users\IBM_ADMIN\Documents\PST\p\Fatec\172\asacheck\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1525848032.index
+2024812468.index
+314991836.index
+571268136.index
+2466211393.index
+308404861.index
+308404861.index
+803460746.index

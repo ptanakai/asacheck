@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+
+h1 {
+	margin-top: 70px;
+	font-family: Calibri;
+	text-align: center;
+	color: #ff4646;
+}
+
+h2 {
+	color: #ff5e5e;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	text-align: left;
+	margin-left: 100px;
+	
+}
+
+h4 {
+	color: #FFA07A;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-align: left;
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+body{ 
+    font-size:14px;
+    color:#000000;
+    font-family:helvetica, arial, sans-serif;
+    text-align:left; /* hack para o IE */
+    margin: 0px;
+}
+
+#topo {
+	text-align: center;
+	height: 343px;
+	width: 503px;
+	
+}
+
+#topo_imagem {
+	background-image: url(../imagens/logo.png);
+	background-repeat: no-repeat;
+	width: 503px;
+	height: 343px;
+	float: center;
+	
+}
+
+#topo_texto {
+	text-align: center;
+	height: 228px;
+	padding-left: 50px;
+	width: 230px;
+	float: left;
+}
+
+#barraMenu {
+	height: 39px;
+	width: 900px;
+	padding: 0px;
+	border-top: 2px solid #666;
+	border-bottom: 1px solid #666;
+	background: #FFF;
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+
+#barraMenu ul li a:hover {
+	color: #FFF;
+	background: #666;
+}
+
+#barraMenu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#barraMenu li {
+	list-style: none;
+	float: left;
+}
+
+#barraMenu li a {
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	margin: 0px;
+}
+
+#conteudo {
+	width: 100% padding-top: 555px;
+	border: 1px solid #c0c0c0 ;
+	text-align: height;
+	padding-left: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+	radius: 10px;
+}
+
+
+
+#rodape {
+	height: 40px;
+	width: 980px;
+	font: 10px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+/* Definição de estilos para toda a tabela da pagina index*/
+.tabela {
+	font-size:80%;
+	border-collapse: collapse;
+	border: 1px solid #808080;
+}
+
+.tabela	tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+.tabela tr:nth-child(even) {
+	background-color: #e4e3f9;
+}
+
+/* Definição de estilos para linha de cabeçalho da tabela*/
+.cabecalho {
+	text-align: center;
+	font-weight: bold;
+	color: Snow;
+	background: #7c84e4;
+	padding: 5px;
+}
+
+.col1 {
+	padding: 5px;
+}
+
+.col2 {
+	padding: 5px;
+}
+
+.col3 {
+	padding: 5px;
+}

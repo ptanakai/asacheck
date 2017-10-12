@@ -1,0 +1,6 @@
+---
+applications:
+- name: ProjectLab
+  memory: 512M
+  host: ProjectLab
+  domain: mybluemix.net
