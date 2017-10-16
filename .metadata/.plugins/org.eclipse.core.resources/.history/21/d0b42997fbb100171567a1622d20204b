@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+  		xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Cadastro de Clientes</title>
+	<link href="design/layout.css" rel="stylesheet" type="text/css" />
+</h:head>
+
+<h:body>
+<h:form>
+	 <p:panel style="margin-bottom:20px; background-color: #E8E8E8">
+        <h:panelGrid columns="12" cellpadding="10" style="background-color: #E8E8E8">
+			<p:link value="Sair"/>
+			<p:outputLabel value="   /   " />
+			<p:commandLink value="Tela Principal" action="index.xhtml"/>
+			<p:outputLabel value="   /   " />
+			<p:outputLabel value="Clientes"/>
+			<p:commandLink value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
+		</h:panelGrid>
+	</p:panel>
+	
+	<p:panel header="Cadastro de Cliente" style="margin-bottom:10px; margin-left: 200px; margin-right:200px">
+        <h:panelGrid columns="5" cellspacing="12" cellpadding="5" style="margin-left: 5%">
+			<p:outputLabel value="CNPJ " style="width: 130px"/>
+			<p:inputText style="width: 180px; margin-left:28%;"/>
+			<h:commandLink style="margin-left:145%;">
+				<button><img src="imagens/lupa.jpg" style="width:28px;"/></button>
+			</h:commandLink>
+			<p:outputLabel value="E_mail " style="margin-left:102%;width: 80px"/>
+			<p:inputText placeholder="" style="margin-left:18%;width: 270px;"/>
+		</h:panelGrid>
+			
+		<h:panelGrid columns="2" cellspacing="12" cellpadding="5" style="margin-left: 5%">
+			<p:outputLabel value="Razão Social " style="width: 128px"/>
+			<p:inputText style="width: 573px;margin-left:1%"/>
+		</h:panelGrid>
+		
+		<h:panelGrid columns="4" cellspacing="12" cellpadding="5" style="margin-left: 5%">
+			<p:outputLabel value="Logradouro " style="width: 110px"/>
+			<p:inputText style="width: 406px;margin-left:4%"/>
+			<p:outputLabel value="Número " style="width: 130px;margin-left:28%"/>
+			<p:inputText style="width:92px;margin-left:18%"/>
+		</h:panelGrid>
+		
+		<h:panelGrid columns="4" cellspacing="12" cellpadding="5" style="margin-left: 5%">
+			<p:outputLabel value="Complemento " style="width: 130px"/>
+			<p:inputText style="width: 152px;margin-left:0%"/>
+			<p:outputLabel value="Bairro " style="width: 123px;margin-left:13%"/>
+			<p:inputText style="width:346px;"/>
+		</h:panelGrid>
+		
+		<h:panelGrid columns="4" cellspacing="12" cellpadding="5" style="margin-left: 5%">
+			<p:outputLabel value="Cidade " style="width: 130px"/>
+			<p:inputText style="width: 426px;margin-left:10%"/>
+			<p:outputLabel value="UF " style="width: 130px;margin-left:205%"/>
+			<p:inputText style="width:92px;margin-left:45%"/>
+		</h:panelGrid>
+		
+		<h:panelGrid columns="4" cellspacing="12" cellpadding="5" style="margin-left: 5%">
+			<p:outputLabel value="CEP " style="width: 130px"/>
+			<p:inputText style="width: 152px;margin-left:38%"/>
+			<p:outputLabel value="Contato " style="width: 123px;margin-left:129%"/>
+			<p:inputText style="width:330px;margin-left:20%"/>
+		</h:panelGrid>
+		
+			<p:commandButton value="Salvar" style="background-color: #228B22; margin-left:165%; width: 120px"></p:commandButton>
+			<p:commandButton value="Editar" style="background-color: #228B22; margin-left:45%; width: 120px"></p:commandButton>
+	</p:panel>	
+</h:form>
+	 
+
+		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
+	
+
+</h:body>
+</html>

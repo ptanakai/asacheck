@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+  		xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Auditoria</title>
+	<link href="design/layout.css" rel="stylesheet" type="text/css" />
+</h:head>
+
+<h:body>
+<h:form>
+	 <p:panel style="margin-bottom:20px; background-color: #E8E8E8">
+        <h:panelGrid columns="12" cellpadding="10" style="background-color: #E8E8E8">
+			<p:link value="Sair"/>
+			<p:outputLabel value="   /   " />
+			<p:commandLink value="Tela Principal" action="index.xhtml"/>
+			<p:outputLabel value="   /   " />
+			<p:outputLabel value="Auditoria"/>
+			<p:commandLink value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
+		</h:panelGrid>
+	</p:panel>
+	
+<p:panel header="Auditoria" style="margin-bottom:5px; margin-left: 85px; margin-right:85px">	
+	<h:panelGrid columns="4" cellspacing="8" cellpadding="5" style="margin-left:2%">
+		<p:outputLabel value="Cliente " style="width: 140px"/>
+		<p:inputText style="width:620px; margin-left:9%"></p:inputText>
+		<h:commandLink style="margin-left:179%">
+			<button><img src="imagens/lupa.jpg" style="width:28px;"/></button>
+		</h:commandLink>
+	</h:panelGrid>
+	
+	 <p:panel header="Auditorias Realizadas" style="margin-bottom:10px; margin: 5px">
+        
+        	<p:panel style="margin-bottom:3px; margin:2px; width: 950px">
+        	<h:panelGrid id="header" columns="3" cellpadding="5" style="margin:8px">
+	        	<p:outputLabel value="Cliente "  style="margin-left:10%;font-style:italic; font-weight:bolder; "/>
+	        	<p:outputLabel value="Data " style="margin-left:785%; font-style:italic; font-weight:bolder"/>
+	        	<p:outputLabel value="Avaliação " style="margin-left:700%; font-style:italic; font-weight:bolder"/>
+	        </h:panelGrid>
+	        	<p:panelGrid columns="3" layout="grid" style="margin:9px">
+	        		<h:outputText value="Content0" /> 
+				    <h:outputText value="Content1"/> 
+				    <h:outputText value="Content2"/> 
+				    
+				    <h:outputText value="Content0" /> 
+				    <h:outputText value="Content1"/> 
+				    <h:outputText value="Content2"/>
+				 
+	        	</p:panelGrid>
+	        	<p:commandButton value="Incluir" style="background-color: #228B22; margin:5px; margin-left:40%; width:140px"></p:commandButton>
+	        </p:panel>   
+     </p:panel>
+   </p:panel>
+	
+      
+</h:form>
+	 
+
+		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
+	
+
+</h:body>
+</html>

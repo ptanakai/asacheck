@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+  		xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>A.S.A. Check - Login</title>
+	<link href="design/layout.css" rel="stylesheet" type="text/css" />
+</h:head>
+
+<h:body>
+<h:form>
+	
+	
+	<p:panel style="margin-bottom:10px; margin-left: 390px; margin-right:460px">
+		<h:panelGrid columns="1" cellpadding="10" style="margin-left: 0%;">
+				<p id="topo_img_p"></p>
+				<p:inputText placeholder="E-mail" style="width: 335px; margin: 5px"/>
+				<p:password id="senha" placeholder="Senha" required="true" style="width:335px; margin: 5px"/>
+				<p:commandLink value="Esqueceu sua senha? Clique aqui." action="index.xhtml" style="margin-left:13%"/>
+				
+				<p:commandButton value="Entrar" action="index.xhtml" style="background-color: #228B22; padding: 5px; width:335px; margin:5px;" ajax="false"></p:commandButton>
+				<p:commandButton value="Novo Usuário" action="index.xhtml" style="background-color: #228B22; padding: 5px; width:335px; margin:5px;" ajax="false"></p:commandButton>
+				<p:button value="Mensagem de erro!" style="width: 335px; margin: 5px; background-color: #CD5C5C" visible="true"/>
+		</h:panelGrid>
+	</p:panel>
+	
+	
+	 
+	
+	    <!-- 
+	    	<p:layoutUnit position="south" size="100" resizable="true" visible="false" >
+		        <h:outputText value="A.S.A. Check é um sistema elaborado a partir da necessidade dos profissionais em Assessoria em Segurança Alimentar em executar suas tarefas de pré-auditoria, onde é imposto um rígido controle de manuseio de equipamentos em áreas restritas, grande variedade de check-list específicos por estabelecimentos, parâmetros específicos por locais de vistoria e diversidade em soluções para eventuais problemas encontrados." 
+		        		style="margin:34px;"/>
+		    </p:layoutUnit>
+		 -->
+	
+
+		
+</h:form>
+	 
+
+		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
+	
+
+</h:body>
+</html>

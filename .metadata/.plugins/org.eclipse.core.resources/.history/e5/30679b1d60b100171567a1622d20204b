@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+  		xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<link href="design/layout.css" rel="stylesheet" type="text/css" />
+</h:head>
+
+<h:body>
+<h:form>
+	 <p:panel style="margin-bottom:20px">
+        <h:panelGrid columns="12" cellpadding="10">
+			<p:link value="Sair"/>
+			<p:outputLabel value="   /   " />
+			<p:commandLink value="Tela Principal" action="index.xhtml"/>
+			<p:commandLink value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
+		</h:panelGrid>
+	</p:panel>
+	
+        <h:panelGrid columns="2" cellspacing="12" cellpadding="5" style="margin-left:2%">
+			<p:outputLabel value="E-mail: " style="width: 160px"/>
+			<p:inputText placeholder="abcd@asacheck.com.br" style="width: 430px;"/>
+			<p:outputLabel value="Nome: " style="width: 160px"/>
+			<p:inputText placeholder="" style="width: 430px;"/>
+			<p:outputLabel value="Função: " style="width: 160px"/>
+			<p:inputText placeholder="" style="width: 430px;"/>
+			<p:outputLabel value="CRN: " style="width: 160px"/>
+			<p:inputText placeholder="" style="width: 430px;"/>
+			<p:outputLabel value="Celular: " style="width: 160px"/>
+			<p:inputText placeholder="11999999999" style="width: 430px;"/>
+			<p:outputLabel value="Tel. Comercial: " style="width: 160px"/>
+			<p:inputText placeholder="1188888888" style="width: 430px;"/>
+			<p:outputLabel value="Senha: " style="width: 160px"/>
+			<p:password placeholder="" style="width: 430px;"/>
+			<p:outputLabel value="Confirmar Senha: " style="width: 160px"/>
+			<p:password placeholder="" style="width: 430px;"/>
+			<p:commandButton value="Salvar" style="background-color: #228B22"></p:commandButton>
+			<p:commandButton value="Editar" style="background-color: #228B22"></p:commandButton>
+		</h:panelGrid>
+</h:form>
+	 
+
+		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
+	
+
+</h:body>
+</html>

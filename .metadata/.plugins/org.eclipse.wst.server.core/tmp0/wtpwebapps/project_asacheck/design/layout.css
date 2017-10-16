@@ -34,6 +34,10 @@ body{
     margin: 0px;
 }
 
+#textBox1{
+	width: 335px;
+	margin: 5px;
+}
 #topo {
 	text-align: center;
 	height: 500px;
@@ -48,6 +52,16 @@ body{
 	height: 216px;
 	float: center;
 	margin-left: 30%;
+	padding: 10px;
+}
+
+#topo_img_p {
+	background-image: url(../imagens/logo_p.png);
+	background-repeat: no-repeat;
+	width: 276px;
+	height: 137px;
+	float: center;
+	margin-left: 10%;
 	
 }
 

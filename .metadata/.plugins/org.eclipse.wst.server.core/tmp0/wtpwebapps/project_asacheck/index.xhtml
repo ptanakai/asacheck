@@ -7,16 +7,18 @@
   		xmlns:p="http://primefaces.org/ui">
 <h:head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>A.S.A. Check</title>
 	<link href="design/layout.css" rel="stylesheet" type="text/css" />
 </h:head>
 
 <h:body>
-	 <p:panel style="margin-bottom:20px">
-        <h:panelGrid columns="12" cellpadding="10">
+<h:form>
+	 <p:panel style="margin-bottom:20px; background-color: #E8E8E8">
+        <h:panelGrid columns="12" cellpadding="10" style="background-color: #E8E8E8" >
 			<p:link value="Sair"/>
 			<p:outputLabel value="   /   " />
-			<p:link value="Tela Principal"/>
-			<p:link value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
+			<p:commandLink value="Tela Principal" action="index.xhtml"/>
+			<p:commandLink value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
 		</h:panelGrid>
 	</p:panel>
 	
@@ -26,29 +28,16 @@
 	<br/>	
 	<p:panel style="margin-bottom:20px">
         <h:panelGrid columns="5" cellspacing="30" cellpadding="10" style="margin-left:13%">
-			<p:button value="Estabelecimentos" icon="ui-icon-star" style="background-color: #228B22"></p:button>
-			<p:button value="Clientes" icon="ui-icon-person" style="background-color: #228B22"></p:button>
-			<p:button value="Agenda" icon="ui-icon-calculator" style="background-color: #228B22"></p:button>
-			<p:button value="Auditoria" icon="ui-icon-check" style="background-color: #228B22"></p:button>
-			<p:button value="Histórico" icon=" ui-icon-script" style="background-color: #228B22"></p:button>
+			<p:commandButton value="Estabelecimentos" action="cadastrarTipoEstabelecimento.xhtml" icon="ui-icon-star" style="background-color: #228B22" ajax="false"></p:commandButton>
+			<p:commandButton value="Clientes" action="cadastrarCliente.xhtml" icon="ui-icon-person" style="background-color: #228B22"></p:commandButton>
+			<p:commandButton value="Agenda" action="agendarAuditoria.xhtml" icon="ui-icon-calculator" style="background-color: #228B22"></p:commandButton>
+			<p:commandButton value="Auditoria" action="agendarAuditoria.xhtml" icon="ui-icon-check" style="background-color: #228B22"></p:commandButton>
+			<p:commandButton value="Histórico" action="historico.xhtml" icon=" ui-icon-script" style="background-color: #228B22"></p:commandButton>
 		</h:panelGrid>
 	</p:panel>
-			
-			
-		
-
-	        
-			
-		<!-- ALTERACOES ABAIXO -->
-		
-		 
-		<h:form>
-	
-		</h:form>
+</h:form>
 	 
-	
-	<!-- ALTERACOES ACIMA -->
-		
+
 		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
 	
 

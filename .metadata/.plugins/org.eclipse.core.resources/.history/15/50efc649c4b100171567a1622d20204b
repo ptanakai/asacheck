@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+  		xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<link href="design/layout.css" rel="stylesheet" type="text/css" />
+</h:head>
+
+<h:body>
+<h:form>
+	 <p:panel style="margin-bottom:20px">
+        <h:panelGrid columns="12" cellpadding="10">
+			<p:link value="Sair"/>
+			<p:outputLabel value="   /   " />
+			<p:commandLink value="Tela Principal" action="index.xhtml"/>
+						<p:outputLabel value="   /   " />
+			<p:outputLabel value="Estabelecimentos"/>
+			<p:commandLink value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
+		</h:panelGrid>
+	</p:panel>
+	
+	<h:panelGrid columns="4" cellspacing="12" cellpadding="5" style="margin-left:0%">
+		<p:outputLabel value="Tipo Estabelecimento: " style="width: 175px"/>
+		<p:selectOneMenu id="tipoEstabelecimento" value="" style="width:430px; "></p:selectOneMenu>
+		<p:commandButton value="+" style="background-color: #228B22; width: 60px; margin-left:0%"></p:commandButton>
+		<p:commandButton value="Editar" style="background-color: #228B22; width: 120px; margin-left:0%"></p:commandButton>
+	</h:panelGrid>
+	
+	 <p:panel header="TABELA DE TEMPERATURA E VALIDADE DOS ALIMENTOS" style="margin-bottom:10px; margin: 5px">
+        <h:panelGrid columns="3" cellpadding="5">
+        	<p:outputLabel value="Tipo de Alimento / Preparação " style="width: 475px "/>
+        	<p:outputLabel value="Temperatura(°C) " style="width: 175px;  margin-left:500%"/>
+        	<p:outputLabel value="Validade " style="width: 175px; margin-left:1250%"/>
+        </h:panelGrid>
+        	<p:panel header="Recebimento" style="margin-bottom:10px; margin:5px; width: 1175px">
+	        	<p:panelGrid columns="3" layout="grid">
+	        		<h:outputText value="Content" /> 
+				    <h:outputText value="Content" /> 
+				    <h:outputText value="Content" /> 
+	        	</p:panelGrid>
+	        </p:panel>   
+     </p:panel>
+	
+      
+</h:form>
+	 
+
+		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
+	
+
+</h:body>
+</html>
