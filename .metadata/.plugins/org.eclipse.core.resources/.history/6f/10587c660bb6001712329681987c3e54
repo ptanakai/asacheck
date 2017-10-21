@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+  		xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Agendamento de Auditoria</title>
+	<link href="design/layout.css" rel="stylesheet" type="text/css" />
+</h:head>
+
+<h:body>
+<h:form>
+	 <p:panel style="margin-bottom:20px; background-color: #E8E8E8">
+        <h:panelGrid columns="12" cellpadding="10" style="background-color: #E8E8E8">
+			<p:link value="Sair"/>
+			<p:outputLabel value="   /   " />
+			<p:commandLink value="Tela Principal" action="index.xhtml"/>
+			<p:outputLabel value="   /   " />
+			<p:outputLabel value="Auditoria"/>
+			<p:commandLink value="Nome do usuario" style="background-color: #3CB371; position:absolute; right:10%;"/>
+		</h:panelGrid>
+	</p:panel>
+	
+<p:panel header="Auditoria" style="margin-bottom:5px; margin-left: 85px; margin-right:85px">
+	<h:panelGrid columns="1" cellspacing="8" cellpadding="5" style="margin-left:2%">
+		<p:commandLink value="Avaliação da Loja: " style="background-color: #3CB371; position:absolute; right:10%;"/>
+	</h:panelGrid>
+	<h:panelGrid columns="9" cellspacing="8" cellpadding="5" style="margin-left:2%">
+		<p:outputLabel value="Cliente " style="width: 50px"/>
+		<p:inputText style="width:220px; margin-left:24%"></p:inputText>
+		<h:commandLink style="margin-left:179%">
+			<button><img src="imagens/lupa.jpg" style="width:28px;"/></button>
+		</h:commandLink>
+		<p:outputLabel value="Data " style="width: 40px; margin-left:219%"/>
+		<p:inputText style="width:100px; margin-left:80%"></p:inputText>
+		<p:outputLabel value="Início " style="width: 40px; margin-left:219%"/>
+		<p:inputText style="width:80px; margin-left:90%"></p:inputText>
+		<p:outputLabel value="Fim " style="width: 40px; margin-left:379%"/>
+		<p:inputText style="width:80px; margin-left:119%"></p:inputText>
+	</h:panelGrid>
+	<h:panelGrid columns="6" cellspacing="12" cellpadding="5" style="margin-left:2%">
+		<p:outputLabel value="Periodicidade " style="width: 175px"/>
+		<p:inputText style="width:230px"></p:inputText>
+		<p:outputLabel value="Data " style="width: 175px"/>
+		<p:inputText style="width:130px"></p:inputText>
+		<p:outputLabel value="Hora " style="width: 175px"/>
+		<p:inputText style="width:130px"></p:inputText>
+	</h:panelGrid>
+	
+	 <p:panel header="Clientes Agendados" style="margin-bottom:10px; margin: 5px">
+        
+        	
+        	<h:panelGrid id="header" columns="3" cellpadding="5" style="margin:8px">
+	        	<p:outputLabel value="Cliente "  style="color:#3CB371;margin-left:10%;font-style:italic; font-weight:bolder; "/>
+	        	<p:outputLabel value="Data " style="color:#3CB371;margin-left:738%; font-style:italic; font-weight:bolder"/>
+	        	<p:outputLabel value="Hora " style="color:#3CB371;margin-left:1300%; font-style:italic; font-weight:bolder"/>
+	        </h:panelGrid>
+	        	<p:panelGrid columns="4" layout="grid" style="margin:9px">
+	        		<h:outputText value="Content0" /> 
+				    <h:outputText value="Content1"/> 
+				    <h:outputText value="Content2"/> 
+				    <p:commandButton  icon="ui-icon-trash" ajax="false"></p:commandButton>
+				    
+				    <h:outputText value="Content0" /> 
+				    <h:outputText value="Content1"/> 
+				    <h:outputText value="Content2"/>
+				    <p:commandButton  icon="ui-icon-trash" ajax="false"></p:commandButton>
+				    				    
+	        	</p:panelGrid>
+	        	
+	         
+     </p:panel>
+   </p:panel>
+	
+      
+</h:form>
+	 
+
+		<div id="rodape">Bem-vindo ao A.S.A. Check!!</div>
+	
+
+</h:body>
+</html>
