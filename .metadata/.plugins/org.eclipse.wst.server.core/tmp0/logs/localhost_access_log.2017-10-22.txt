@@ -240,3 +240,6 @@
 0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:44:49 -0200] "POST /ProjectLab/login.xhtml HTTP/1.1" 200 5717
 0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:45:03 -0200] "GET /ProjectLab/login.xhtml HTTP/1.1" 200 5533
 0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:45:05 -0200] "POST /ProjectLab/login.xhtml HTTP/1.1" 200 5717
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:48:58 -0200] "GET /ProjectLab/login.xhtml HTTP/1.1" 200 5534
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:20:39:57 -0200] "POST /ProjectLab/login.xhtml HTTP/1.1" 500 2103
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:20:40:05 -0200] "POST /ProjectLab/login.xhtml HTTP/1.1" 500 2103

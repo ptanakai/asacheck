@@ -24,10 +24,10 @@
 				<p id="topo_img_p"></p>
 				<p:inputText placeholder="E-mail" style="width: 335px; margin: 5px"/>
 				<p:password id="senha" placeholder="Senha" style="width:335px; margin: 5px"/>
-				<p:commandLink value="Esqueceu sua senha? Clique aqui." action="index.xhtml" style="margin-left:13%"/>
+				<p:commandLink value="Esqueceu sua senha? Clique aqui." action="cadastrarUsuario.xhtml" style="margin-left:13%"/>
 				
 				<p:commandButton value="Entrar" action="index.xhtml" style="background-color: #228B22; padding: 5px; width:335px; margin:5px;" ajax="false"></p:commandButton>
-				<p:commandButton value="Novo Usuário" action="cadastrarUsuario.xhtml" style="background-color: #228B22; padding: 5px; width:335px; margin:5px;" ajax="false"></p:commandButton>
+				<p:commandButton value="Novo Usuário" action="index.xhtml" style="background-color: #228B22; padding: 5px; width:335px; margin:5px;" ajax="false"></p:commandButton>
 				<p:button value="Mensagem de erro!" style="width: 335px; margin: 5px; background-color: #CD5C5C" visible="true"/>
 		</h:panelGrid>
 	</p:panel>
