@@ -33,7 +33,7 @@
 			<p:commandButton value="Agenda" action="agendarAuditoria.xhtml" icon="ui-icon-calculator" style="background-color: #228B22"></p:commandButton>
 			<p:commandButton value="Auditoria" action="auditoria.xhtml" icon="ui-icon-check" style="background-color: #228B22"></p:commandButton>
 			<p:commandButton value="Histórico" action="historico.xhtml" icon=" ui-icon-script" style="background-color: #228B22"></p:commandButton>
-		</h:panelGrid>	
+		</h:panelGrid>
 	</p:panel>
 </h:form>
 	 
