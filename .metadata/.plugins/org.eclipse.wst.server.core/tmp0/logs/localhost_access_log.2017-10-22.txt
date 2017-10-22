@@ -193,3 +193,13 @@
 0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:01:21 -0200] "POST /ProjectLab/index.xhtml HTTP/1.1" 200 10705
 0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:03:16 -0200] "POST /ProjectLab/cadastrarTipoEstabelecimento.xhtml HTTP/1.1" 200 315
 0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:03:18 -0200] "POST /ProjectLab/cadastrarTipoEstabelecimento.xhtml HTTP/1.1" 200 315
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "POST /ProjectLab/index.xhtml HTTP/1.1" 200 13898
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo HTTP/1.1" 200 24424
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/design/layout.css HTTP/1.1" 200 2847
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/components.css.xhtml?ln=primefaces&v=6.0 HTTP/1.1" 200 75447
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/core.js.xhtml?ln=primefaces&v=6.0 HTTP/1.1" 200 30554
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&v=6.0 HTTP/1.1" 200 107785
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&v=6.0 HTTP/1.1" 200 245797
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/components.js.xhtml?ln=primefaces&v=6.0 HTTP/1.1" 200 357791
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /ProjectLab/javax.faces.resource/images/ui-icons_38667f_256x240.png.xhtml?ln=primefaces-aristo HTTP/1.1" 200 4369
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:19:21:59 -0200] "GET /favicon.ico HTTP/1.1" 404 1016
